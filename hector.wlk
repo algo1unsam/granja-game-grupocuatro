@@ -12,7 +12,7 @@ object hector {
 	method regar(planta) {
 		try {
 			planta.meRegaron()
-		} catch e : Exception {
+		} catch e : Exception { //puede mejorarse y no poner solo Exception
 			throw new Exception(message = "no tengo nada para regar")
 		}
 	}
