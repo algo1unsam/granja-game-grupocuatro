@@ -11,6 +11,7 @@ program farmville {
 
 	//  VISUALES
  	game.addVisualCharacter(hector)
+	game.onTick(5000, "rocia", {aspersor.rocia()})
  //	game.addVisualIn(new Maiz(), game.at(1, 1))
  	
  	//  COMIENZA
